@@ -1,23 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&family=Poppins:ital,wght@0,500;0,700;1,500&display=swap");
 .header {
+  background-color: rgb(253, 251, 249);
   display: flex;
   justify-content: space-around;
-  font-family: "Cookie", cursive;
-  font-family: "Poppins", sans-serif;
+  font-family: sans-serif;
+  height: 56px;
+  width: 1440px;
 }
+#logo h2 {
+  /* font-family: Poppins; */
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
 #logo {
-  position: static;
-  width: 126px;
-  height: 30px;
+  display: flex;
+  width: 180px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700 bold;
 }
 #search {
-  width: 235px;
   height: 32px;
+  width: 235px;
+  left: 882px;
+  top: 12px;
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 250;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
 }
 .banner1 {
-  height: 500px;
-  width: 100px;
-  display: inline;
+  height: 400px;
+  width: 588px;
+  left: 133px;
+  top: 104px;
+  border-radius: 0px;
 }
 .login-n-busket {
-  display: flex;
+  text-align: orange;
+  height: 32px;
+  width: 180px;
+  left: 1140px;
+  top: 12px;
+  border-radius: 0px;
+  padding: 8px, 3px, 8px, 3px;
+}
+.menu {
+  text-align: orange;
+  font-weight: 700 bold;
+}
+.Mstars {
+  height: 120px;
+  width: 384px;
 }
