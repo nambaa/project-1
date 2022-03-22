@@ -5,16 +5,19 @@
   font-family: "Poppins", sans-serif;
 }
 #logo {
-  display: flex;
-  width: 40px;
-  height: 40px;
+  position: static;
+  width: 126px;
+  height: 30px;
 }
 #search {
   width: 235px;
   height: 32px;
 }
-.banner {
-  background-image: none;
+.banner1 {
   height: 500px;
-  width: 1000px;
+  width: 100px;
+  display: inline;
+}
+.login-n-busket {
+  display: flex;
 }
