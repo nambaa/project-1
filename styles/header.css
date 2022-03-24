@@ -48,8 +48,15 @@ header {
 }
 .white img {
   position: absolute;
-  width: 1440px;
+  width: 1500px;
   height: 496px;
   left: 4px;
   top: 76px;
+}
+.food img {
+  position: absolute;
+  width: 588px;
+  height: 400px;
+  left: 50px;
+  top: 104px;
 }
