@@ -9,7 +9,7 @@
   height: 40px;
 }
 #logo h2 {
-  color: orange;
+  color: rgba(241, 114, 40, 1);
   font-family: "Poppins";
   font-weight: 700;
 }
@@ -24,7 +24,7 @@ header {
   text-decoration: none;
 }
 .login-n-busket a {
-  color: orange;
+  color: rgba(241, 114, 40, 1);
   padding: 10px;
   text-decoration: none;
 }
@@ -46,6 +46,7 @@ header {
   box-sizing: border-box;
   border-radius: 10px;
 }
+
 .white img {
   position: absolute;
   width: 1500px;
@@ -59,4 +60,11 @@ header {
   height: 400px;
   left: 50px;
   top: 104px;
+}
+.msarts img {
+  height: 216px;
+  width: 486px;
+  left: 847px;
+  top: 152px;
+  border-radius: 30px;
 }
