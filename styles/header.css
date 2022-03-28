@@ -1,6 +1,3 @@
-* {
-  box-sizing: border-box;
-}
 #logo {
   display: flex;
   justify-content: center;
@@ -18,22 +15,25 @@
 }
 header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 .menu a {
-  color: rgba(0, 0, 0, 1);
-  padding: 20px;
   text-decoration: none;
+  padding: 10px;
+  color: #000000;
+}
+.menu a:hover {
+  color: #f17228;
 }
 .login-n-busket a {
   color: rgba(241, 114, 40, 1);
   padding: 10px;
   text-decoration: none;
 }
-#search {
+.search input {
   background-image: url(../images/search.png);
-  background-position: 10% 50%;
+  background-position: 15px 50%;
   background-size: 12px 12px;
   background-repeat: no-repeat;
   height: 32px;
@@ -42,37 +42,6 @@ header {
   border: 1px solid #fbc5a6;
   border-radius: 10px;
 }
-
-.white img {
-  position: absolute;
-  width: 1500px;
-  height: 496px;
-  left: 4px;
-  top: 76px;
-}
-.food img {
-  position: absolute;
-  width: 588px;
-  height: 400px;
-  left: 50px;
-  top: 104px;
-}
-.msarts img {
-  height: 216px;
-  width: 486px;
-  left: 847px;
-  top: 152px;
-  border-radius: 30px;
-}
-.base {
-  position: absolute;
-  width: 1440px;
-  height: 248px;
-  left: 1px;
-  top: 572px;
-  background: linear-gradient(
-    179.24deg,
-    #f17228 -90.18%,
-    rgba(255, 255, 255, 0) 41.19%
-  );
+.search input::placeholder {
+  padding-left: 30px;
 }
