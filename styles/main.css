@@ -10,7 +10,7 @@
 }
 #description h2 {
   width: 384px;
-  height: 120px;
+  height: 90px;
   right: 222px;
   display: flex;
   text-align: right;
@@ -26,9 +26,14 @@
   font-size: 22px;
   line-height: 120%;
   display: flex;
-  align-items: center;
-  text-align: right;
   color: #4d2000;
+}
+#description hr {
+  width: 383px;
+  height: 0px;
+  left: 834px;
+  top: 296px;
+  border: 2px solid rgba(241, 114, 40, 0.6);
 }
 .base {
   position: absolute;
@@ -41,4 +46,41 @@
     #f17228 -90.18%,
     rgba(255, 255, 255, 0) 41.19%
   );
+}
+#btn {
+  justify-content: flex-end;
+  position: absolute;
+  width: 60px;
+  height: 40px;
+  right: 120px;
+  top: 288px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+}
+.btns {
+  display: flex;
+  width: 180px;
+  height: 16px;
+}
+.sker1 {
+  width: 21px;
+  height: 8px;
+  background: #f17228;
+  border-radius: 5px;
+  flex: none;
+  margin: 0px 10px;
+}
+.sker2 {
+  width: 10px;
+  height: 8px;
+  background: #fbc5a6;
+  border-radius: 5px;
+  margin: 0px 10px;
+}
+.sker3 {
+  width: 10px;
+  height: 8px;
+  background: #fbc5a6;
+  border-radius: 5px;
+  margin: 0px 10px;
 }
