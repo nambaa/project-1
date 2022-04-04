@@ -7,37 +7,10 @@
     <link rel="stylesheet" href="./styles/header.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/main.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Poppins:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Poppins:wght@600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Cookie&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Poppins:wght@600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Poppins:wght@700&display=swap"
-      rel="stylesheet"
-    />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
     <title>Food Delivery</title>
   </head>
   <body>
@@ -75,42 +48,190 @@
           <p>Хосгүй амтыг хормын дотор хүргэж өгнө.</p>
         </div>
         <div class="btns">
-          <div class="sker1"></div>
-          <div class="sker2"></div>
-          <div class="sker3"></div>
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
         </div>
       </div>
     </div>
     <div class="base">
       <div id="features">
-        <div class="box1">
-          <img src="./images/watch.png" alt="tsag" />
-          <div class="cart1">
-            <h3>Шуурхай хүргэлт</h3>
-            <p>30 минутанд таны гарт.</p>
+        <div class="features">
+          <div class="box1">
+            <img src="./images/watch.png" alt="tsag" />
+            <div class="cart1">
+              <h3>Шуурхай хүргэлт</h3>
+              <p>30 минутанд таны гарт.</p>
+            </div>
           </div>
-        </div>
-        <div class="box2">
-          <img src="./hool.png" alt="hool" />
-          <div class="cart2">
-            <h3>Эрүүл, баталгаат орц</h3>
-            <p>Хамгийн чанартайг танд.</p>
+          <div class="box2">
+            <img src="./sale/hool.png" alt="hool" />
+            <div class="cart2">
+              <h3>Эрүүл, баталгаат орц</h3>
+              <p>Хамгийн чанартайг танд.</p>
+            </div>
           </div>
-        </div>
-        <div class="box3">
-          <img src="book.png" alt="book" />
-          <div class="cart3">
-            <h3>Өргөн сонголт</h3>
-            <p>Хамгийн онцгойг танд.</p>
+          <div class="box3">
+            <img src="./sale/book.png" alt="book" />
+            <div class="cart3">
+              <h3>Өргөн сонголт</h3>
+              <p>Хамгийн онцгойг танд.</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
     <div id="sale">
-      <div class="morj">
-        <h2> Хямдралтай</h2>
+      <div id="morj">
+        <div class="all1">
+          <img src="./sale/orange.png" alt="" />
+          <h2> Хямдралтай</h2>
+        </div>
+        <div class="all2">
+          <p>Бүгдийг харах</p>
+        </div>
       </div>
-      <div></div>
+      <div class="cards1">
+        <div class="card" style="width: 16rem">
+          <div class="rectangle">30%</div>
+          <img
+            src="./unsplash_TLD6iCOlyb0.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Зайрмаг</h5>
+            <div class="pro">
+              <p class="card-text">4800₮</p>
+              <p>6,800₮</p>
+            </div>
+          </div>
+        </div>
+        <div class="card1" style="width: 16rem">
+
+          <img
+            src="./images/sale/unsplash_eeqbbemH9-c.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Панкейк</h5>
+            <div class="pro1">
+              <p class="card-text">4800₮</p>
+              <p>6,800₮</p>
+            </div>
+          </div>
+        </div>
+        <div class="card2" style="width: 16rem">
+          <img
+            src="./unsplash_fdlZBWIP0aM.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Өглөөний хоол</h5>
+            <div class="pro2">
+              <p class="card-text">4800₮</p>
+              <p>6,800₮</p>
+            </div>
+          </div>
+        </div>
+        <div class="card3" style="width: 16rem">
+          <img src="./pic.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Банана сендвич</h5>
+            <div class="pro3">
+              <p class="card-text">4800₮</p>
+              <p>6,800₮</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sale1">
+        <div id="morj">
+          <div class="all1">
+            <img src="./sale/orange.png" alt="" />
+            <h2> Үндсэн хоол</h2>
+          </div>
+          <div class="all2">
+            <p>Бүгдийг харах</p>
+          </div>
+        </div>
+      </div>
+      <div class="cards2">
+        <div class="zone1" style="width: 16rem">
+          <img
+            src="./salmon.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Салмон загас</h5>
+            <div class="pro">
+              <p class="card-text">11,800₮</p>
+            </div>
+          </div>
+        </div>
+          <div class="zone2" style="width: 16rem">
+            <img
+              src="./buurun.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Бөөрөнхий мах</h5>
+              <div class="pro">
+                <p class="card-text">14,000₮</p>
+              </div>
+            </div>
+          </div>
+            <div class="zone3" style="width: 16rem">
+              <img
+                src="./camrin.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Самрын нухаш</h5>
+                <div class="pro">
+                  <p class="card-text">9,800₮</p>
+                </div>
+              </div>
+            </div>
+              <div class="zone4" style="width: 16rem">
+                <img
+                  src="./chicken.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Зайрмаг</h5>
+                  <div class="pro">
+                    <p class="card-text">14,000₮</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </div>
     </div>
   </body>
 </html>
