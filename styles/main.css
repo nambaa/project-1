@@ -3,26 +3,21 @@
   align-items: center;
   justify-content: space-between;
 }
-#description {
-  width: 486px;
-  height: 390px;
-}
-.base {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
-  width: 100%;
-  height: 248px;
-  left: 0px;
-  top: 580px;
+/* Info Panel starting here */
+.info-bg {
   background: linear-gradient(
     179.24deg,
     #f17228 -90.18%,
     rgba(255, 255, 255, 0) 41.19%
   );
 }
+.features {
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 30px;
+}
+/* info Panel ends here */
 #btn {
   justify-content: flex-end;
   position: absolute;
@@ -65,14 +60,7 @@
   border-radius: 5px;
   margin: 0px 10px;
 }
-.features {
-  display: flex;
-  margin: 115px;
-  justify-content: space-around;
-  align-items: flex-end;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
-  border-radius: 30px;
-}
+
 .box1 {
   display: flex;
   align-items: center;
@@ -120,12 +108,11 @@
 }
 #morj {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding: 25px;
+  padding: 40px;
   height: 88px;
   left: 120px;
-  top: 0px;
   margin: 16px 0px;
 }
 .all1 {
@@ -136,8 +123,6 @@
   left: 135px;
 }
 .all2 {
-  display: flex;
-  background-color: orange;
   background: #f17228;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
   border-radius: 20px;
@@ -186,6 +171,22 @@
   font-size: 16px;
   line-height: 24px;
   color: #000000;
+}
+.line1 {
+  display: flex;
+  text-decoration: line-through;
+}
+.line2 {
+  display: flex;
+  text-decoration: line-through;
+}
+.line3 {
+  display: flex;
+  text-decoration: line-through;
+}
+.line {
+  display: flex;
+  text-decoration: line-through;
 }
 .pro {
   display: flex;
@@ -238,11 +239,11 @@
 }
 .cards1 {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 .cards2 {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 .zone1 {
   display: flex;
@@ -304,9 +305,11 @@
   color: #f17228;
 }
 .active p {
+  position: absolute;
   width: 384px;
   height: 64px;
-  right: 222px;
+  right: 300px;
+  top: 260px;
   font-family: "Comfortaa";
   font-style: normal;
   font-weight: 700;
@@ -317,4 +320,12 @@
   text-align: right;
   letter-spacing: 0.01em;
   color: #4d2000;
+}
+.active hr {
+  position: absolute;
+  width: 383px;
+  height: 0px;
+  right: 300px;
+  top: 230px;
+  border: 2px solid rgba(241, 114, 40, 0.6);
 }
